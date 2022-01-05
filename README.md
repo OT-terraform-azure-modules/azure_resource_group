@@ -19,7 +19,7 @@ Usage
 
 ```hcl
 module "res_group" {
-  source   = "git::git@gitlab.com:ot-azure/terraform/rg.git?ref=v1.0.0"
+  source   = "git::https://github.com/OT-terraform-azure-modules/azure_resource_group.git"
   tag_map  = {
     Name = "azure_rg"
   }
